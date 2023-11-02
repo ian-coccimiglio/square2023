@@ -2,7 +2,7 @@
 % Please edit documentation in R/square.R
 \name{square}
 \alias{square}
-\title{Squares an input number}
+\title{Squares an input number or numeric vector}
 \usage{
 square(x)
 }
@@ -13,7 +13,7 @@ square(x)
 the squared value \code{x}
 }
 \description{
-Squares an input number
+Squares an input number or numeric vector
 }
 \examples{
 square(10)

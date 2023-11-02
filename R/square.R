@@ -1,4 +1,4 @@
-#' Squares an input number
+#' Squares an input number or numeric vector
 #'
 #' @param x a numeric value
 #'
