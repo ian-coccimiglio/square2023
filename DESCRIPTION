@@ -12,3 +12,6 @@ LazyData: true
 URL: https://github.com/ian-coccimiglio/square2023
 BugReports: https://github.com/ian-coccimiglio/square2023/issues
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
