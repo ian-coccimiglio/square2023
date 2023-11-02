@@ -1,0 +1,32 @@
+---
+title: "Using Square"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using_square}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(square2023)
+```
+
+Here, we will show the functionalities of the square package:
+
+Consider the vector:
+```{r}
+x <- 1:10
+```
+
+Using `square(x)`, you can get the square of these values
+
+```{r}
+square(x)
+```
